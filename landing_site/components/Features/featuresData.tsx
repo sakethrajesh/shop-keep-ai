@@ -4,16 +4,16 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: "/images/icon/icon-01.svg",
-    title: "Crafted for SaaS",
+    title: "Personalized Business Recommendations",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Get personalized recommendations for your business by simply sharing basic information about your business.",
   },
   {
     id: 2,
     icon: "/images/icon/icon-02.svg",
-    title: "High-quality Design",
+    title: "Knows Your Business Inside Out",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Our AI powered tool lets you respond to emails faster than ever before by generating personalized responses about your business",
   },
   {
     id: 3,

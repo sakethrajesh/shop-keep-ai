@@ -14,7 +14,7 @@ const Feature = () => {
             headerInfo={{
               title: "FEATURES",
               subtitle: "Core Features of ShopKeep AI",
-              description: `Our AI powered tools help to bring the modern technology from big buissness to the small buissness world.`,
+              description: `Our AI powered tools help to bring the modern technology from big business to the small business world.`,
             }}
           />
           {/* <!-- Section Title End --> */}

@@ -63,7 +63,7 @@ const FeaturesTab = () => {
               </div>
               <div className="lg:w-auto md:w-3/5">
                 <h5 className="text-black dark:text-white text-sm xl:text-regular font-medium">
-                  Clean User Interface
+                  Food Services
                 </h5>
               </div>
             </div>
@@ -82,7 +82,7 @@ const FeaturesTab = () => {
               </div>
               <div className="lg:w-auto md:w-3/5">
                 <h5 className="text-black dark:text-white text-sm xl:text-regular font-medium">
-                  Essential Business Pages
+                  Retail
                 </h5>
               </div>
             </div>
@@ -101,7 +101,26 @@ const FeaturesTab = () => {
               </div>
               <div className="lg:w-auto md:w-3/5">
                 <h5 className="text-black dark:text-white text-sm xl:text-regular font-medium">
-                  Fully Functional Integrations
+                  Ecommerce
+                </h5>
+              </div>
+            </div>
+            <div
+              onClick={() => setCurrentTab("tabFour")}
+              className={`relative cursor-pointer w-full md:w-auto border-b last:border-0 md:border-0 border-stroke dark:border-strokedark flex items-center gap-4 py-2 xl:py-5 px-6 xl:px-13.5 ${
+                currentTab === "tabFour"
+                  ? "active before:w-full before:h-1 before:bg-primary before:absolute before:bottom-0 before:left-0 before:rounded-tl-[4px] before:rounded-tr-[4px]"
+                  : ""
+              }`}
+            >
+              <div className="w-12.5 h-12.5 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
+                <p className="text-black dark:text-white font-medium text-metatitle3">
+                  04
+                </p>
+              </div>
+              <div className="lg:w-auto md:w-3/5">
+                <h5 className="text-black dark:text-white text-sm xl:text-regular font-medium">
+                  More Coming Soon
                 </h5>
               </div>
             </div>
